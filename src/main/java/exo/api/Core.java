@@ -12,4 +12,5 @@ public interface Core{
     public void onHarvest(BlockEvent.HarvestDropsEvent e);
     public void onJump(LivingEvent.LivingJumpEvent e);
     public Tree tree();
+    public String name();
 }
